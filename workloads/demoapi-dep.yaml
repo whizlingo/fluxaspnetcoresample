@@ -27,7 +27,7 @@ spec:
         "beta.kubernetes.io/os": linux 
       containers:
       - name: demoapisample
-        image: 654698825315.dkr.ecr.us-east-1.amazonaws.com/sample/demoapi:1.0.1
+        image: 654698825315.dkr.ecr.us-east-1.amazonaws.com/sample/demoapi:1.0.2
         imagePullPolicy: IfNotPresent
         resources:
           limits:
