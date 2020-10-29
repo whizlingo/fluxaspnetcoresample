@@ -24,7 +24,7 @@ spec:
         app: demoapi
    spec:
       nodeSelector:
-        "beta.kubernetes.io/os": linux
+        "beta.kubernetes.io/os": linux 
       containers:
       - name: demoapisample
         image: 654698825315.dkr.ecr.us-east-1.amazonaws.com/sample/demoapi:latest
